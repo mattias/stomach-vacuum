@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stomach Vacuum Guide</title>
+<meta name="description" content="Learn the stomach vacuum in five levels, from belly breathing to advanced holds, with illustrations, a hold timer and video links.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="lying" viewBox="0 0 240 150">
+    <line class="fl" x1="10" y1="132" x2="230" y2="132"/>
+    <circle class="hd" cx="38" cy="120" r="10"/>
+    <path class="ln" d="M50 124 L130 124 L160 74 L186 124 L200 126"/>
+    <path class="ln" d="M62 126 L104 128"/>
+    <path class="ac" d="M78 119 Q96 108 114 119"/>
+  </symbol>
+  <symbol id="quad" viewBox="0 0 240 150">
+    <line class="fl" x1="10" y1="132" x2="230" y2="132"/>
+    <circle class="hd" cx="50" cy="62" r="10"/>
+    <path class="ln" d="M61 68 L160 68 L162 126 L205 126"/>
+    <path class="ln" d="M82 68 L82 126"/>
+    <path class="ac" d="M100 74 Q124 96 148 74"/>
+  </symbol>
+  <symbol id="stand" viewBox="0 0 240 150">
+    <line class="fl" x1="10" y1="142" x2="230" y2="142"/>
+    <circle class="hd" cx="110" cy="22" r="10"/>
+    <path class="ln" d="M110 34 L110 88 M110 88 L100 142 M110 88 L124 142"/>
+    <path class="ln" d="M110 46 L136 64 L116 86"/>
+    <path class="ac" d="M114 56 Q128 70 114 82"/>
+  </symbol>
+  <symbol id="plank" viewBox="0 0 240 150">
+    <line class="fl" x1="10" y1="132" x2="230" y2="132"/>
+    <circle class="hd" cx="42" cy="82" r="10"/>
+    <path class="ln" d="M53 90 L196 116 L206 130"/>
+    <path class="ln" d="M70 94 L70 130"/>
+    <path class="ac" d="M104 100 Q124 112 148 108"/>
+  </symbol>
+  <symbol id="yt" viewBox="0 0 24 24"><rect x="1" y="5" width="22" height="14" rx="4" fill="currentColor"/><path d="M10 9l5 3-5 3z" style="fill:var(--surface)"/></symbol>
+</svg>
+
+<header class="nav">
+  <div class="wrap">
+    <span class="brand">Stomach Vacuum</span>
+    <nav class="chips" data-i18n-aria="nav.label" aria-label="Levels">
+      <a href="#basics" data-i18n="nav.basics">Basics</a>
+      <a href="#level-1" data-i18n="nav.l1">1 Breathing</a>
+      <a href="#level-2" data-i18n="nav.l2">2 Lying</a>
+      <a href="#level-3" data-i18n="nav.l3">3 All fours</a>
+      <a href="#level-4" data-i18n="nav.l4">4 Standing</a>
+      <a href="#level-5" data-i18n="nav.l5">5 Advanced</a>
+      <a href="#timer" data-i18n="nav.timer">Timer</a>
+    </nav>
+    <div class="lang" role="group" data-i18n-aria="lang.label" aria-label="Language">
+      <button type="button" data-lang="en" lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="sv" lang="sv" aria-pressed="false">SV</button>
+      <button type="button" data-lang="ja" lang="ja" aria-pressed="false">日本語</button>
+    </div>
+  </div>
+  <div class="bar" role="progressbar" data-i18n-aria="pb.aria" aria-label="Completed levels" aria-valuemin="0" aria-valuemax="5" aria-valuenow="0" id="pb"><i id="pbi"></i></div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow" data-i18n="eyebrow">Training guide · deep core</p>
+      <h1 data-i18n="h1">Stomach vacuum, from first breath to advanced</h1>
+      <p class="lead" data-i18n="lead">You breathe out fully and draw your belly in towards your spine without breathing in again. The exercise trains the transversus abdominis, the deep abdominal muscle that works like a built-in weight belt.</p>
+      <div class="facts">
+        <span class="pill" data-i18n="pill1">5 levels</span>
+        <span class="pill" data-i18n="pill2">No equipment</span>
+        <span class="pill" data-i18n="pill3">3–5 min per session</span>
+        <span class="pill" data-i18n="pill4">Train on an empty stomach</span>
+      </div>
+    </div>
+    <figure class="anat">
+      <div class="two">
+        <svg viewBox="0 0 200 150" role="img" data-i18n-aria="anat.aria1" aria-label="Cross-section of the waist with a relaxed belly">
+          <ellipse class="body-o" cx="100" cy="72" rx="74" ry="52"/>
+          <ellipse class="tra" cx="100" cy="72" rx="58" ry="38"/>
+          <circle class="sp" cx="100" cy="119" r="5"/>
+          <text class="tx" x="100" y="144" text-anchor="middle" data-i18n="anat.relaxed">Relaxed</text>
+        </svg>
+        <svg viewBox="0 0 200 150" role="img" data-i18n-aria="anat.aria2" aria-label="Cross-section of the waist during a vacuum">
+          <ellipse class="body-o" cx="104" cy="76" rx="66" ry="44"/>
+          <ellipse class="tra" cx="104" cy="76" rx="48" ry="28"/>
+          <circle class="sp" cx="104" cy="113" r="5"/>
+          <path class="ar" d="M178 70 L156 70 M162 63 L155 70 L162 77"/>
+          <text class="tx" x="100" y="144" text-anchor="middle" data-i18n="anat.vac">Vacuum</text>
+        </svg>
+      </div>
+      <figcaption data-i18n="anat.cap">The waist seen from above. The thick ring is the transversus abdominis. In a vacuum it contracts and draws the waist in towards the spine.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<div class="wrap">
+  <section class="block" id="basics">
+    <h2 class="sec-title" data-i18n="basics.title">Before you start</h2>
+    <div class="cols">
+      <div class="box">
+        <h3 data-i18n="gain.h">What you get</h3>
+        <ul class="tight">
+          <li data-i18n="gain.1">A stronger deep core and better body control.</li>
+          <li data-i18n="gain.2">Better posture and a steadier trunk in other exercises.</li>
+          <li data-i18n="gain.3">Better control over the trunk. The exercise strengthens the muscle but does not by itself give a smaller waist.</li>
+          <li data-i18n="gain.4">It does not burn belly fat. Fat loss comes from diet and overall activity.</li>
+        </ul>
+      </div>
+      <div class="box warn">
+        <h3 data-i18n="warn.h">Wait or ask a doctor if you</h3>
+        <ul class="tight">
+          <li data-i18n="warn.1">are pregnant or have recently given birth (diastasis recti)</li>
+          <li data-i18n="warn.2">have a hernia, reflux, high blood pressure, heart or vascular disease or glaucoma</li>
+          <li data-i18n="warn.3">have a back injury, a slipped disc or joint problems in wrists, knees or shoulders</li>
+          <li data-i18n="warn.4">have had abdominal surgery recently</li>
+          <li data-i18n="warn.5">get dizziness, headache, chest pain or shortness of breath during the exercise. Stop at once, and seek care for chest pain or shortness of breath.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="box rules">
+      <h3 data-i18n="rules.h">Five ground rules</h3>
+      <ul class="tight">
+        <li data-i18n="rules.1"><b>Empty stomach.</b> Train in the morning or at least 2–3 hours after a meal.</li>
+        <li data-i18n="rules.2"><b>Breathe out first.</b> Breathe out calmly and fully, without forcing, before you draw the belly in. That engages the deep abdominal muscle.</li>
+        <li data-i18n="rules.3"><b>Keep the chest still.</b> Your ribs should not lift. The abdominal muscle does the work, not the chest.</li>
+        <li data-i18n="rules.4"><b>Frequency.</b> Daily at levels 1–2, every other day at levels 3–4 and 2–3 sessions a week at level 5.</li>
+        <li data-i18n="rules.5"><b>Dizziness.</b> If you feel dizzy, light-headed or get a headache: stop and breathe normally.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- LEVEL 1 -->
+  <article class="level" id="level-1" data-level="1">
+    <div class="art">
+      <svg viewBox="0 0 240 150" role="img" data-i18n-aria="l1.aria" aria-label="Person lying on their back with bent knees, arrow pointing up over the belly">
+        <use href="#lying"/>
+        <path class="ar" d="M96 96 L96 74 M88 82 L96 74 L104 82"/>
+      </svg>
+      <p class="cap" data-i18n="l1.cap">Belly rises as you breathe in</p>
+    </div>
+    <div class="body">
+      <div class="lv-head">
+        <div><p class="lv-tag" data-i18n="l1.tag">Level 1 · Beginner</p><h2 data-i18n="l1.h">Belly breathing</h2></div>
+        <button class="done" type="button" aria-pressed="false" data-done="1" data-i18n="ui.done">Done</button>
+      </div>
+      <div class="specs">
+        <div class="spec"><b data-i18n="l1.s1v">2 min</b><span data-i18n="l1.s1l">Per session</span></div>
+        <div class="spec"><b data-i18n="l1.s2v">Daily</b><span data-i18n="l1.s2l">Frequency</span></div>
+        <div class="spec"><b data-i18n="l1.s3v">Lying</b><span data-i18n="l1.s3l">Position</span></div>
+      </div>
+      <ol class="steps">
+        <li data-i18n="l1.st1">Lie on your back with bent knees and feet on the floor. Put one hand on your chest and the other on your belly.</li>
+        <li data-i18n="l1.st2">Breathe in through your nose for 4 seconds. The hand on your belly should rise, the hand on your chest should stay still.</li>
+        <li data-i18n="l1.st3">Breathe out slowly through your mouth for 6 seconds. Feel the belly sink towards the floor.</li>
+        <li data-i18n="l1.st4">Repeat for 10–15 breaths.</li>
+      </ol>
+      <p class="goal" data-i18n="l1.goal"><b>Done when:</b> you can move the breath to your belly without your chest moving.</p>
+      <div class="vid"><a href="#" data-q="l1.q1" target="_blank" rel="noopener"><svg><use href="#yt"/></svg><span data-i18n="l1.v1">Belly breathing, search YouTube</span></a></div>
+    </div>
+  </article>
+
+  <!-- LEVEL 2 -->
+  <article class="level" id="level-2" data-level="2">
+    <div class="art">
+      <svg viewBox="0 0 240 150" role="img" data-i18n-aria="l2.aria" aria-label="Person lying on their back, arrow pointing down into the belly">
+        <use href="#lying"/>
+        <path class="ar" d="M96 70 L96 98 M88 90 L96 98 L104 90"/>
+      </svg>
+      <p class="cap" data-i18n="l2.cap">Belly in towards the spine as you breathe out</p>
+    </div>
+    <div class="body">
+      <div class="lv-head">
+        <div><p class="lv-tag" data-i18n="l2.tag">Level 2 · Beginner</p><h2 data-i18n="l2.h">Lying vacuum</h2></div>
+        <button class="done" type="button" aria-pressed="false" data-done="2" data-i18n="ui.done">Done</button>
+      </div>
+      <div class="specs">
+        <div class="spec"><b data-i18n="l2.s1v">10–20 s</b><span data-i18n="l2.s1l">Hold</span></div>
+        <div class="spec"><b data-i18n="l2.s2v">4–5</b><span data-i18n="l2.s2l">Sets</span></div>
+        <div class="spec"><b data-i18n="l2.s3v">30 s</b><span data-i18n="l2.s3l">Rest</span></div>
+      </div>
+      <ol class="steps">
+        <li data-i18n="l2.st1">Lie on your back with bent knees. Breathe in calmly through your nose.</li>
+        <li data-i18n="l2.st2">Breathe out calmly through your mouth until your lungs feel empty. Don't force it.</li>
+        <li data-i18n="l2.st3">Without breathing in: draw your navel towards your spine as far as it goes.</li>
+        <li data-i18n="l2.st4">Hold the position. Then breathe in and relax.</li>
+      </ol>
+      <p class="tip" data-i18n="l2.tip">Tip: Imagine buttoning a pair of trousers that are too tight. Let your arms rest along your sides. If you feel dizzy or get a headache: stop and breathe normally.</p>
+      <p class="goal" data-i18n="l2.goal"><b>Done when:</b> you hold for 20 seconds with even tension and no shaking.</p>
+      <div class="vid"><a href="#" data-q="l2.q1" target="_blank" rel="noopener"><svg><use href="#yt"/></svg><span data-i18n="l2.v1">Lying vacuum tutorials</span></a><a href="#" data-q="l2.q2" target="_blank" rel="noopener"><svg><use href="#yt"/></svg><span data-i18n="l2.v2">Beginner guides</span></a></div>
+    </div>
+  </article>
+
+  <!-- LEVEL 3 -->
+  <article class="level" id="level-3" data-level="3">
+    <div class="art">
+      <svg viewBox="0 0 240 150" role="img" data-i18n-aria="l3.aria" aria-label="Person on all fours, arrow pointing up towards the spine">
+        <use href="#quad"/>
+        <path class="ar" d="M124 124 L124 100 M116 108 L124 100 L132 108"/>
+      </svg>
+      <p class="cap" data-i18n="l3.cap">Gravity helps you</p>
+    </div>
+    <div class="body">
+      <div class="lv-head">
+        <div><p class="lv-tag" data-i18n="l3.tag">Level 3 · Intermediate</p><h2 data-i18n="l3.h">Vacuum on all fours</h2></div>
+        <button class="done" type="button" aria-pressed="false" data-done="3" data-i18n="ui.done">Done</button>
+      </div>
+      <div class="specs">
+        <div class="spec"><b data-i18n="l3.s1v">20–30 s</b><span data-i18n="l3.s1l">Hold</span></div>
+        <div class="spec"><b data-i18n="l3.s2v">3–5</b><span data-i18n="l3.s2l">Sets</span></div>
+        <div class="spec"><b data-i18n="l3.s3v">30 s</b><span data-i18n="l3.s3l">Rest</span></div>
+      </div>
+      <ol class="steps">
+        <li data-i18n="l3.st1">Get on all fours: hands under your shoulders, knees under your hips, back straight.</li>
+        <li data-i18n="l3.st2">Let your belly hang towards the floor and breathe in.</li>
+        <li data-i18n="l3.st3">Breathe out fully and draw your navel towards your spine and upwards.</li>
+        <li data-i18n="l3.st4">Hold the position and keep a neutral spine. Relax and breathe in.</li>
+      </ol>
+      <p class="tip" data-i18n="l3.tip">This is often the easiest position for feeling the muscle work, because the belly hangs down and you can see exactly how far it moves.</p>
+      <p class="goal" data-i18n="l3.goal"><b>Done when:</b> you hold for 30 seconds and can talk calmly in short sentences while holding.</p>
+      <div class="vid"><a href="#" data-q="l3.q1" target="_blank" rel="noopener"><svg><use href="#yt"/></svg><span data-i18n="l3.v1">Vacuum on all fours</span></a></div>
+    </div>
+  </article>
+
+  <!-- LEVEL 4 -->
+  <article class="level" id="level-4" data-level="4">
+    <div class="art">
+      <svg viewBox="0 0 240 150" role="img" data-i18n-aria="l4.aria" aria-label="Standing person with a hand on the hip, arrow pointing in towards the belly">
+        <use href="#stand"/>
+        <path class="ar" d="M170 68 L126 68 M133 61 L126 68 L133 75"/>
+      </svg>
+      <p class="cap" data-i18n="l4.cap">Standing and seated</p>
+    </div>
+    <div class="body">
+      <div class="lv-head">
+        <div><p class="lv-tag" data-i18n="l4.tag">Level 4 · Intermediate</p><h2 data-i18n="l4.h">Standing and seated vacuum</h2></div>
+        <button class="done" type="button" aria-pressed="false" data-done="4" data-i18n="ui.done">Done</button>
+      </div>
+      <div class="specs">
+        <div class="spec"><b data-i18n="l4.s1v">30–45 s</b><span data-i18n="l4.s1l">Hold</span></div>
+        <div class="spec"><b data-i18n="l4.s2v">3–5</b><span data-i18n="l4.s2l">Sets</span></div>
+        <div class="spec"><b data-i18n="l4.s3v">20 s</b><span data-i18n="l4.s3l">Rest</span></div>
+      </div>
+      <ol class="steps">
+        <li data-i18n="l4.st1"><b>Standing with support:</b> lean your torso slightly forward with your hands on your thighs and knees slightly bent.</li>
+        <li data-i18n="l4.st2">Breathe out fully and draw your belly in. Hold.</li>
+        <li data-i18n="l4.st3"><b>Upright:</b> when that feels steady, do the same with straight legs and your hands on your hips.</li>
+        <li data-i18n="l4.st4"><b>Seated:</b> do the same on a chair with a straight back, so you can train anywhere.</li>
+      </ol>
+      <p class="tip" data-i18n="l4.tip">Keep your shoulders down and your jaw relaxed. Don't tense your glutes or thighs, only your belly. If you feel dizzy: sit down, stop and breathe normally.</p>
+      <p class="goal" data-i18n="l4.goal"><b>Done when:</b> you hold for 45 seconds standing without support.</p>
+      <div class="vid"><a href="#" data-q="l4.q1" target="_blank" rel="noopener"><svg><use href="#yt"/></svg><span data-i18n="l4.v1">Standing vacuum</span></a><a href="#" data-q="l4.q2" target="_blank" rel="noopener"><svg><use href="#yt"/></svg><span data-i18n="l4.v2">Seated vacuum</span></a></div>
+    </div>
+  </article>
+
+  <!-- LEVEL 5 -->
+  <article class="level" id="level-5" data-level="5">
+    <div class="art">
+      <svg viewBox="0 0 240 150" role="img" data-i18n-aria="l5.aria" aria-label="Person in a plank position, arrow pointing up towards the belly">
+        <use href="#plank"/>
+        <path class="ar" d="M126 126 L126 112 M119 119 L126 112 L133 119"/>
+      </svg>
+      <p class="cap" data-i18n="l5.cap">Vacuum under load</p>
+    </div>
+    <div class="body">
+      <div class="lv-head">
+        <div><p class="lv-tag" data-i18n="l5.tag">Level 5 · Advanced</p><h2 data-i18n="l5.h">Longer holds and movement</h2></div>
+        <button class="done" type="button" aria-pressed="false" data-done="5" data-i18n="ui.done">Done</button>
+      </div>
+      <div class="specs">
+        <div class="spec"><b data-i18n="l5.s1v">4–6</b><span data-i18n="l5.s1l">Pulses per set</span></div>
+        <div class="spec"><b data-i18n="l5.s2v">3–5</b><span data-i18n="l5.s2l">Sets</span></div>
+        <div class="spec"><b data-i18n="l5.s3v">20 s</b><span data-i18n="l5.s3l">Rest</span></div>
+      </div>
+      <ol class="steps">
+        <li data-i18n="l5.st1"><b>Pulses:</b> hold the vacuum for 10 seconds, release, take 2–3 calm breaths and draw in again. Do 4–6 pulses per set.</li>
+        <li data-i18n="l5.st2"><b>Plank with vacuum:</b> get into a plank on your knees or toes. Breathe out, draw your belly in and hold for 10–20 seconds.</li>
+        <li data-i18n="l5.st3"><b>Vacuum in motion:</b> walk slowly with your belly drawn in and breathe calmly. In a squat: breathe out and draw in as you stand up, breathe in before the next rep. Never hold your breath under load.</li>
+        <li data-i18n="l5.st4"><b>After each set:</b> breathe in calmly and rest. Stop at once if you feel dizzy.</li>
+      </ol>
+      <p class="tip" data-i18n="l5.tip">The yoga variation <i>Nauli</i> (rolling the muscles) is a separate technique. Learn it only once you master the vacuum in every position. Skip Nauli with a hernia, pregnancy, high blood pressure, stomach ulcers or recent abdominal surgery.</p>
+      <p class="goal" data-i18n="l5.goal"><b>Maintenance:</b> 2–3 sessions a week is enough to keep your level.</p>
+      <div class="vid"><a href="#" data-q="l5.q1" target="_blank" rel="noopener"><svg><use href="#yt"/></svg><span data-i18n="l5.v1">Advanced vacuum</span></a><a href="#" data-q="l5.q2" target="_blank" rel="noopener"><svg><use href="#yt"/></svg><span data-i18n="l5.v2">Nauli</span></a></div>
+    </div>
+  </article>
+
+  <section class="timer" id="timer" data-i18n-aria="timer.aria" aria-label="Vacuum hold timer">
+    <div>
+      <div class="t-read" id="tr" aria-live="off">00:15</div>
+      <div class="t-state" id="ts" aria-live="polite">Ready</div>
+    </div>
+    <div class="t-ctl">
+      <h2 data-i18n="timer.h">Hold timer</h2>
+      <div class="presets" id="presets" role="group" data-i18n-aria="timer.presets" aria-label="Choose a time">
+        <button type="button" data-s="10" aria-pressed="false">10 s</button>
+        <button type="button" data-s="15" aria-pressed="true">15 s</button>
+        <button type="button" data-s="20" aria-pressed="false">20 s</button>
+        <button type="button" data-s="30" aria-pressed="false">30 s</button>
+        <button type="button" data-s="45" aria-pressed="false">45 s</button>
+        <button type="button" data-s="60" aria-pressed="false">60 s</button>
+      </div>
+      <button class="go" id="go" type="button">Start</button>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2 class="sec-title" data-i18n="mis.title">Common mistakes</h2>
+    <div class="cols">
+      <div class="box"><h3 data-i18n="mis.1h">You don't breathe out fully</h3><p data-i18n="mis.1p">With air left in your lungs the belly won't draw in. Breathe out calmly until you can't any more, without forcing it.</p></div>
+      <div class="box"><h3 data-i18n="mis.2h">Your chest lifts</h3><p data-i18n="mis.2p">Then you are cheating with your ribs. Keep your ribcage down and let your shoulders drop.</p></div>
+      <div class="box"><h3 data-i18n="mis.3h">You train right after eating</h3><p data-i18n="mis.3p">It can feel unpleasant and is harder to control. Wait 2–3 hours.</p></div>
+      <div class="box"><h3 data-i18n="mis.4h">You skip levels</h3><p data-i18n="mis.4p">Standing vacuum without the lying basics is harder to control and often tenses the wrong muscles.</p></div>
+    </div>
+  </section>
+</div>
+</main>
+
+<footer>
+  <div class="wrap" data-i18n="foot">The video links open YouTube searches, so you always get current videos. This guide does not replace medical advice.</div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
